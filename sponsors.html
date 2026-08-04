@@ -1,187 +1,373 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Devenir partenaire de Kyhera Cadoret | Sponsoring sportif</title>
 
-<title>Partenaires & Sponsors | Kyhera Cadoret</title>
+  <meta name="description" content="Devenez partenaire de Kyhera Cadoret, championne de France de Kick-Boxing UFSC 2026. Découvrez les offres de sponsoring et accompagnez son projet sportif.">
 
-<meta name="description" content="Accompagnez Kyhera Cadoret dans son parcours vers le plus haut niveau. Découvrez les possibilités de partenariat et les avantages pour votre entreprise.">
+  <link rel="stylesheet" href="styles.css">
 
-<link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 0;
+      background: #0b0b0c;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+    }
 
-<style>
+    .sponsors-container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 50px 24px 80px;
+    }
 
-body{
-margin:0;
-background:#0b0b0b;
-color:white;
-font-family:Arial,sans-serif;
-}
+    .sponsors-header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
 
-.container{
-max-width:1100px;
-margin:auto;
-padding:40px 25px;
-}
+    .sponsors-header h1 {
+      margin: 0 0 20px;
+      color: #d8b35d;
+      font-size: 48px;
+      line-height: 1.08;
+    }
 
-h1{
-font-size:48px;
-margin-bottom:20px;
-}
+    .sponsors-header p {
+      max-width: 820px;
+      margin: auto;
+      font-size: 20px;
+      line-height: 1.7;
+      color: #dddddd;
+    }
 
-h2{
-margin-top:60px;
-font-size:34px;
-}
+    .sponsors-stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-bottom: 65px;
+    }
 
-p{
-font-size:20px;
-line-height:1.8;
-}
+    .stat-card {
+      padding: 28px 15px;
+      text-align: center;
+      background: #151515;
+      border: 1px solid #c9a34e;
+      border-radius: 16px;
+    }
 
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:25px;
-margin-top:30px;
-}
+    .stat-card strong {
+      display: block;
+      color: #d8b35d;
+      font-size: 38px;
+      margin-bottom: 8px;
+    }
 
-.card{
+    .stat-card span {
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
 
-background:#151515;
+    h2 {
+      margin: 55px 0 25px;
+      color: #d8b35d;
+      font-size: 34px;
+      line-height: 1.15;
+    }
 
-border-radius:18px;
+    .benefits,
+    .packs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
 
-padding:30px;
+    .card {
+      padding: 28px;
+      background: #151515;
+      border: 1px solid rgba(201, 163, 78, 0.65);
+      border-radius: 18px;
+    }
 
-border:1px solid #c6a75b;
+    .card h3 {
+      margin-top: 0;
+      color: #d8b35d;
+      font-size: 24px;
+    }
 
-}
+    .card p,
+    .card li {
+      font-size: 17px;
+      line-height: 1.6;
+      color: #e2e2e2;
+    }
 
-.card h3{
+    .card ul {
+      padding-left: 20px;
+    }
 
-margin-top:0;
+    .price {
+      display: block;
+      margin: 15px 0;
+      color: #ffffff;
+      font-size: 32px;
+      font-weight: bold;
+    }
 
-color:#d8b35d;
+    .official {
+      border: 2px solid #d8b35d;
+      background: linear-gradient(145deg, #211d13, #111111);
+    }
 
-}
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 45px;
+    }
 
-.btn{
+    .btn {
+      display: inline-block;
+      padding: 15px 24px;
+      background: #d8b35d;
+      color: #111111;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 10px;
+    }
 
-display:inline-block;
+    .btn-secondary {
+      background: transparent;
+      color: #d8b35d;
+      border: 1px solid #d8b35d;
+    }
 
-margin-top:30px;
+    .contact-box {
+      margin-top: 65px;
+      padding: 32px;
+      background: #151515;
+      border-left: 5px solid #d8b35d;
+      border-radius: 12px;
+    }
 
-padding:16px 34px;
+    .contact-box p {
+      font-size: 18px;
+      line-height: 1.7;
+    }
 
-background:#d8b35d;
+    .back {
+      margin-top: 45px;
+    }
 
-color:black;
+    .back a {
+      color: #d8b35d;
+    }
 
-text-decoration:none;
+    @media (max-width: 850px) {
+      .sponsors-stats {
+        grid-template-columns: repeat(2, 1fr);
+      }
 
-font-weight:bold;
+      .benefits,
+      .packs {
+        grid-template-columns: 1fr;
+      }
+    }
 
-border-radius:12px;
+    @media (max-width: 600px) {
+      .sponsors-container {
+        padding: 35px 20px 70px;
+      }
 
-}
+      .sponsors-header h1 {
+        font-size: 36px;
+      }
 
-@media(max-width:600px){
+      .sponsors-header p {
+        font-size: 18px;
+      }
 
-h1{
-font-size:36px;
-}
+      .sponsors-stats {
+        grid-template-columns: repeat(2, 1fr);
+      }
 
-h2{
-font-size:28px;
-}
+      .stat-card strong {
+        font-size: 30px;
+      }
 
-p{
-font-size:18px;
-}
+      h2 {
+        font-size: 29px;
+      }
 
-}
+      .actions {
+        flex-direction: column;
+      }
 
-</style>
-
+      .btn {
+        text-align: center;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-<div class="container">
+  <main class="sponsors-container">
 
-<h1>Devenir partenaire de Kyhera Cadoret</h1>
+    <header class="sponsors-header">
+      <h1>Devenir partenaire de Kyhera Cadoret</h1>
 
-<p>
+      <p>
+        Associez votre entreprise à une jeune championne de France de Kick-Boxing,
+        engagée dans un projet sportif ambitieux vers le plus haut niveau national
+        et international.
+      </p>
+    </header>
 
-Accompagnez une jeune championne française dans son parcours vers le plus haut niveau.
+    <section class="sponsors-stats">
+      <div class="stat-card">
+        <strong>15</strong>
+        <span>ans</span>
+      </div>
 
-Votre entreprise bénéficie d'une visibilité moderne tout en soutenant une athlète ambitieuse.
+      <div class="stat-card">
+        <strong>30</strong>
+        <span>combats</span>
+      </div>
 
-</p>
+      <div class="stat-card">
+        <strong>28</strong>
+        <span>victoires</span>
+      </div>
 
-<h2>Pourquoi devenir sponsor ?</h2>
+      <div class="stat-card">
+        <strong>93,3 %</strong>
+        <span>de réussite</span>
+      </div>
+    </section>
 
-<div class="grid">
+    <h2>Pourquoi devenir partenaire ?</h2>
 
-<div class="card">
+    <section class="benefits">
+      <article class="card">
+        <h3>Une image forte</h3>
+        <p>
+          Associez votre entreprise à la discipline, au courage, au respect,
+          à la persévérance et au dépassement de soi.
+        </p>
+      </article>
 
-<h3>🥇 Image</h3>
+      <article class="card">
+        <h3>Une visibilité moderne</h3>
+        <p>
+          Profitez d’une présence sur le site, les réseaux sociaux,
+          les supports de communication et les événements sportifs.
+        </p>
+      </article>
 
-<p>Associez votre entreprise à une championne de France.</p>
+      <article class="card">
+        <h3>Un projet humain</h3>
+        <p>
+          Participez concrètement au développement d’une jeune athlète normande
+          et accompagnez son ascension vers les grandes compétitions.
+        </p>
+      </article>
+    </section>
 
-</div>
+    <h2>Les offres de sponsoring</h2>
 
-<div class="card">
+    <section class="packs">
+      <article class="card">
+        <h3>Pack Bronze</h3>
+        <span class="price">250 €</span>
+        <ul>
+          <li>Remerciement officiel</li>
+          <li>Logo dans l’espace partenaires</li>
+          <li>Information sur les résultats sportifs</li>
+        </ul>
+      </article>
 
-<h3>📱 Visibilité</h3>
+      <article class="card">
+        <h3>Pack Argent</h3>
+        <span class="price">500 €</span>
+        <ul>
+          <li>Contreparties du Pack Bronze</li>
+          <li>Publication dédiée à l’entreprise</li>
+          <li>Logo sur certains supports numériques</li>
+        </ul>
+      </article>
 
-<p>Présence sur le site, les réseaux sociaux, les affiches et les compétitions.</p>
+      <article class="card">
+        <h3>Pack Or</h3>
+        <span class="price">1 000 €</span>
+        <ul>
+          <li>Contreparties précédentes</li>
+          <li>Logo sur un support ou équipement convenu</li>
+          <li>Contenu photo ou vidéo dédié</li>
+        </ul>
+      </article>
 
-</div>
+      <article class="card">
+        <h3>Pack Platine</h3>
+        <span class="price">2 500 €</span>
+        <ul>
+          <li>Visibilité renforcée</li>
+          <li>Vidéo ou interview dédiée</li>
+          <li>Opération de communication commune</li>
+        </ul>
+      </article>
 
-<div class="card">
+      <article class="card official">
+        <h3>Partenaire officiel</h3>
+        <span class="price">Dès 5 000 €</span>
+        <ul>
+          <li>Partenariat entièrement personnalisé</li>
+          <li>Positionnement prioritaire</li>
+          <li>Actions exclusives et suivi régulier</li>
+        </ul>
+      </article>
+    </section>
 
-<h3>🤝 Partenariat</h3>
+    <div class="actions">
+      <a class="btn"
+         href="mailto:Christopher.teambrunomaniguet@gmail.com?subject=Demande%20de%20partenariat%20pour%20Kyhera%20Cadoret">
+        Devenir partenaire
+      </a>
 
-<p>Construisons une collaboration durable et gagnant-gagnant.</p>
+      <a class="btn btn-secondary"
+         href="packs-sponsoring-team-kyhera-cadoret.pdf"
+         target="_blank">
+        Télécharger les packs
+      </a>
 
-</div>
+      <a class="btn btn-secondary"
+         href="dossier-sponsoring-team-kyhera-cadoret.pdf"
+         target="_blank">
+        Voir le dossier de sponsoring
+      </a>
+    </div>
 
-</div>
+    <section class="contact-box">
+      <h2>Contact partenariat</h2>
 
-<h2>Pourquoi soutenir Kyhera ?</h2>
+      <p>
+        <strong>Christopher Cadoret</strong><br>
+        Président – Team Kyhera Cadoret<br>
+        E-mail : Christopher.teambrunomaniguet@gmail.com<br>
+        Téléphone : 06 75 36 96 38<br>
+        Normandie – France
+      </p>
+    </section>
 
-<p>
+    <p class="back">
+      <a href="index.html">← Retour à l’accueil</a>
+    </p>
 
-✔ Championne de France de Kick-Boxing
-
-<br>
-
-✔ Double Championne de Normandie
-
-<br>
-
-✔ Double vainqueure du Trophée BBC
-
-<br>
-
-✔ Objectif : Championnats du Monde
-
-</p>
-
-<a class="btn" href="mailto:Christopher.teambrunomaniguet@gmail.com?subject=Demande%20de%20partenariat%20pour%20Kyhera%20Cadoret">
-Devenir partenaire
-</a>
-
-Nous contacter
-
-</a>
-
-</div>
+  </main>
 
 </body>
-
 </html>
