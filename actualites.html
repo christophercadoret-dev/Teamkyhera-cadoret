@@ -9,20 +9,72 @@
 <meta name="description" content="Retrouvez toutes les actualités, les combats, les résultats et les compétitions de Kyhera Cadoret.">
 
 <link rel="stylesheet" href="styles.css">
+<style>
+  .actualites-page {
+    background: #0b0b0b;
+    color: #ffffff;
+    min-height: 100vh;
+  }
+
+  .actualites-header {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 24px 20px;
+  }
+
+  .actualites-header h1 {
+    font-size: 48px !important;
+    line-height: 1.05 !important;
+    margin: 0 !important;
+    letter-spacing: normal !important;
+  }
+
+  .actualites-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 24px 80px;
+  }
+
+  .actualites-content h2 {
+    font-size: 38px !important;
+    line-height: 1.1 !important;
+    margin: 30px 0 20px !important;
+    letter-spacing: normal !important;
+  }
+
+  .actualites-content p {
+    font-size: 20px;
+    line-height: 1.7;
+  }
+
+  @media (max-width: 600px) {
+    .actualites-header {
+      padding-top: 30px;
+    }
+
+    .actualites-header h1 {
+      font-size: 36px !important;
+    }
+
+    .actualites-content h2 {
+      font-size: 30px !important;
+    }
+
+    .actualites-content p {
+      font-size: 18px;
+    }
+  }
+</style>  
 
 </head>
 
-<body>
+<body class="actualites-page">
 
-<header class="site-header">
-  <div style="max-width:900px;margin:auto;padding:30px 20px;">
-    <h1 style="font-size:42px;line-height:1.05;margin:0;">
-      Actualités de Kyhera Cadoret
-    </h1>
-  </div>
+<header class="actualites-header">
+<h1>Actualités de Kyhera Cadoret</h1>
 </header>
 
-<main style="max-width:900px;margin:auto;padding:40px;">
+<main class="actualites-content">
 
 <article>
 
