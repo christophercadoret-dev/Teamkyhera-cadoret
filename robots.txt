@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://christophercadoret-dev.github.io/Teamkyhera-cadoret/sitemap.xml
+Sitemap: https://christophercadoret-dev.github.io/Teamkyhera-cadoret/sitemap.txt
