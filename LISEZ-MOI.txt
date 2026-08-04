@@ -1,0 +1,24 @@
+REFONTE PREMIUM — PAGE D'ACCUEIL
+
+Ce dossier contient trois fichiers à remplacer dans GitHub :
+
+- index.html
+- styles.css
+- script.js
+
+Important :
+1. Ne supprimez pas les photos, PDF ni les autres pages.
+2. Téléversez ces trois fichiers dans le dépôt.
+3. GitHub vous demandera si vous souhaitez remplacer les fichiers existants : acceptez.
+4. Validez avec « Commit changes ».
+5. Attendez une à deux minutes puis actualisez le site.
+
+Les fichiers utilisent les ressources déjà présentes à la racine :
+- logo-team-bruno-maniguet.png
+- kyhera-hero.jpg
+- kyhera-training.jpg
+- kyhera-combat-1.jpg
+- kyhera-combat-2.jpg
+- kyhera-podium.jpg
+- dossier-sponsoring-team-kyhera-cadoret.pdf
+- packs-sponsoring-team-kyhera-cadoret.pdf
